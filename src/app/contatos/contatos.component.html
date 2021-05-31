@@ -1,0 +1,12 @@
+<h2>Lista de Contatos</h2>
+
+<div *ngFor="let c of contatos">
+    Nome: {{c.nome}} <br>
+    E-mail: {{c.email}} <br>
+    Telefone: {{c.telefone}} <br>
+    <dd> Nome: {{c.pessoa.nome}} <br>
+         CPF: {{c.pessoa.cpf}} <br> 
+         Data de Nascimento: {{c.pessoa.dataNascimento}} <br> </dd>
+    ----------
+
+</div>
